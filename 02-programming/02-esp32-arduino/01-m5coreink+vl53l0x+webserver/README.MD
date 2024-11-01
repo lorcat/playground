@@ -1,8 +1,8 @@
 ## Purpose
 An example of M5CoreInk operation together with time of flight (TOF) VL53L0X sensor and HTTP webserver.
-Code adjusted from Arduino and M5Stack libraries.
+Code adjusted from Arduino and M5Stack C libraries.
 
-The combination can be used for collision detection, although VL53L0X
+The combination can be used for collision detection, although VL53L0X operates within limit of +20-2000 mm. For collision detection it can be placed at a larger distance than 20 mm to handle larger values. The sensor is not that too, but cheap. 
 
 ## mDNS name (multicast DNS)
 This value is set within the __local_wifi.h__
