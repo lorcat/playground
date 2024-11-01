@@ -10,5 +10,8 @@ This value is set within the __local_wifi.h__
 ## WiFi SSID + password
 These values are set within the __local_wifi.h__
 
+## HTTP pages
+The server publishes two pages. One of them is root - / (html, no-cache) and the other is /signal (json as plain text, no-cache).
+
 ## Notes
 Placing web-server processing or VL53L0X code detection into a separate thread using __xTaskCreatePinnedToCore()__ did not work for me.
