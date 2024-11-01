@@ -536,15 +536,17 @@ void loop() {
     if(bfirst_run)
         bfirst_run = !bfirst_run;
     }
-
-  }
-
+    
   // check point for distance measurement, 4Hz
   curtime = millis();
   if(curtime - cp_250 > 250){
     cp_250 = curtime;
     measure();
   }
+
+  }
+
+  
 
   web_server.handleClient();
 
