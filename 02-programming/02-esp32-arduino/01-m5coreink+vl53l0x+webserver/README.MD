@@ -14,4 +14,7 @@ These values are set within the __local_wifi.h__
 The server publishes two pages. One of them is root - / (html, no-cache) and the other is /signal (json as plain text, no-cache).
 
 ## Notes
+[M5CoreInk](https://docs.m5stack.com/en/core/coreink) is a nice device equipped with buttons, leds, battery (360 mA), magnet and convinient hardware headers.
+It is a good small device for prototyping. CPU is 160 MHz (double core). [M5Stack TOF](https://docs.m5stack.com/en/unit/TOF) is cheaper than its Adafruit or SparkFun alternatives with pre-soldered headers.
+
 Placing web-server processing or VL53L0X code detection into a separate thread using __xTaskCreatePinnedToCore()__ did not work for me.
