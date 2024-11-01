@@ -1,6 +1,6 @@
 ## Purpose
 An example of M5CoreInk operation together with time of flight (TOF) VL53L0X sensor and HTTP webserver.
-Code adjusted from Arduino and M5Stack C libraries.
+Code adjusted from [Arduino](https://docs.arduino.cc/) and M5Stack C libraries [1](https://github.com/m5stack/M5Core-Ink) and [2](https://github.com/m5stack/M5Unit-TOF). The corresponding licenses apply.
 
 The combination can be used for collision detection, although VL53L0X operates within limit of +20-2000 mm. For collision detection it can be placed at a larger distance than 20 mm to handle larger values. The sensor is not that precise, but cheap. 
 
