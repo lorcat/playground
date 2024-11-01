@@ -5,7 +5,7 @@ Code adjusted from [Arduino](https://docs.arduino.cc/) and M5Stack C libraries [
 The combination can be used for collision detection, although VL53L0X operates within limit of +20-2000 mm. For collision detection it can be placed at a larger distance than 20 mm to handle larger values. The sensor is not that precise, but cheap. 
 
 The setup is shown below.
-![M5Stack CoreInk + TOF](./m5coreink.jpg){width=300}
+![M5Stack CoreInk + TOF](./m5coreink.jpg){width=300, height=400}
 
 ## mDNS name (multicast DNS)
 This value is set within the __local_wifi.h__
